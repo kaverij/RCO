@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="RCO Config">362a3eb534a471103334a013f146ff34</app_config>
+        <description/>
+        <extension_point/>
+        <fields>tableName,recSysId</fields>
+        <icon/>
+        <name>Update Status Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>update-status-page</route_type>
+        <screen_type display_value="Update Status Page">36179f354728711090954c6d826d4392</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 06:57:07</sys_created_on>
+        <sys_id>321713b54728711090954c6d826d4302</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update Status Page</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_app_route_321713b54728711090954c6d826d4302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-21 11:49:37</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=321713b54728711090954c6d826d4302"/>
+</record_update>

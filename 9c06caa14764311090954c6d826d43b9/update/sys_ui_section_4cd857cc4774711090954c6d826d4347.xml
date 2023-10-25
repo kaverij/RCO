@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Basic Details" section_id="4cd857cc4774711090954c6d826d4347" sys_domain="global" table="x_1067582_rco_rco_primary_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>salutation</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4a8c28e447b0311090954c6d826d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>middle_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4e8c28e447b0311090954c6d826d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>428c28e447b0311090954c6d826d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>personal_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>468c28e447b0311090954c6d826d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>social_security_number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4a8c28e447b0311090954c6d826d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4e8c28e447b0311090954c6d826d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>428c28e447b0311090954c6d826d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>468c28e447b0311090954c6d826d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_birth</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4a8c28e447b0311090954c6d826d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>4e8c28e447b0311090954c6d826d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_id</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:35:09</sys_created_on>
+            <sys_id>428c28e447b0311090954c6d826d43ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="Default view">4cd857cc4774711090954c6d826d4347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Basic Details</caption>
+            <header>false</header>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 06:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cd857cc4774711090954c6d826d4347</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_1067582_rco_rco_primary_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_ui_section_4cd857cc4774711090954c6d826d4347</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:35:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

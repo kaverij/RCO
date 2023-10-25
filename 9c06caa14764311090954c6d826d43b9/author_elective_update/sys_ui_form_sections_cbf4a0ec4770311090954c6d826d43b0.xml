@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="cbf4a0ec4770311090954c6d826d43b0" sys_domain="global" table="x_1067582_rco_new" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bf4a0ec4770311090954c6d826d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_new" name="x_1067582_rco_new" sys_domain="global" view="Default view">cbf4a0ec4770311090954c6d826d43b0</sys_ui_form>
+            <sys_ui_section caption="Basic Information" display_value="Basic Information" name="x_1067582_rco_new" sys_domain="global" view="Default view">ed6a06ff4720311090954c6d826d4304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:02:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87f4a0ec4770311090954c6d826d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_new" name="x_1067582_rco_new" sys_domain="global" view="Default view">cbf4a0ec4770311090954c6d826d43b0</sys_ui_form>
+            <sys_ui_section caption="Add Test" display_value="Add Test" name="x_1067582_rco_new" sys_domain="global" view="Default view">8bf4a0ec4770311090954c6d826d43ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:02:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1067582_rco_new</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-18 07:02:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbf4a0ec4770311090954c6d826d43b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1067582_rco_new</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cbf4a0ec4770311090954c6d826d43b0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-18 07:02:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ui_form_sections_cbf4a0ec4770311090954c6d826d43b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="cbf4a0ec4770311090954c6d826d43b0" sys_domain="global" table="x_1067582_rco_new" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-18 07:02:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4bf4a0ec4770311090954c6d826d43b3</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1067582_rco_new" name="x_1067582_rco_new" sys_domain="global" view="Default view">cbf4a0ec4770311090954c6d826d43b0</sys_ui_form><sys_ui_section caption="Basic Information" display_value="Basic Information" name="x_1067582_rco_new" sys_domain="global" view="Default view">ed6a06ff4720311090954c6d826d4304</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-18 07:02:11</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-18 07:02:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>87f4a0ec4770311090954c6d826d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1067582_rco_new" name="x_1067582_rco_new" sys_domain="global" view="Default view">cbf4a0ec4770311090954c6d826d43b0</sys_ui_form><sys_ui_section caption="Add Test" display_value="Add Test" name="x_1067582_rco_new" sys_domain="global" view="Default view">8bf4a0ec4770311090954c6d826d43ae</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-18 07:02:11</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1067582_rco_new</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-18 07:02:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbf4a0ec4770311090954c6d826d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1067582_rco_new</sys_name><sys_overrides/><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ui_form_sections_cbf4a0ec4770311090954c6d826d43b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-18 07:02:10</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1150951887</payload_hash>
+        <record_name>New</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-18 08:36:02</sys_created_on>
+        <sys_id>f97a38e447f0311090954c6d826d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a07c9861a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-18 08:36:02</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>f17a38e44ff03110377bf19ad6d4a259</update_guid>
+        <update_guid_history>f17a38e44ff03110377bf19ad6d4a259:1150951887,10cb68a47ab0311041ddc9adb6daf17e:-1216667666,763b20a492b031103962b2d107a73c24:1150951887,f23b20a4b2b03110b6029c7b764e880d:-479475627,1e8aa06478b031105aa2f464e8a5c00f:-70634458,8ff4a0ec877031102038c190bdd38cc5:-1481023968,8ff4a0ec4c70311074132660c67d0db5:1150951887,87f4a0ec51703110891e94938b3002b2:1582235512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 06:45:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>3088a560602443f49cb8fad400da5990</sys_id>
+        <sys_metadata>cbf4a0ec4770311090954c6d826d43b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067582_rco_new</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent display_value="">bd2a06ff4720311090954c6d826d4319</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_cbf4a0ec4770311090954c6d826d43b0</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_cbf4a0ec4770311090954c6d826d43b0">f97a38e447f0311090954c6d826d4359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-11 06:45:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

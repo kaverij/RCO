@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4a1207304751311090954c6d826d4320" sys_domain="global" table="x_1067582_rco_rco_primary_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce1207304751311090954c6d826d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="New section 3" display_value="New section 3" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">0e1207304751311090954c6d826d4323</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>061207304751311090954c6d826d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">061207304751311090954c6d826d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c61207304751311090954c6d826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">c61207304751311090954c6d826d435d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1207304751311090954c6d826d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="Address" display_value="Address" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">8a1207304751311090954c6d826d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c61207304751311090954c6d826d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">c61207304751311090954c6d826d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1207304751311090954c6d826d4365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="Insurance Details" display_value="Insurance Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">8a1207304751311090954c6d826d4364</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c21207304751311090954c6d826d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="New section 4" display_value="New section 4" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">c21207304751311090954c6d826d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>061207304751311090954c6d826d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1067582_rco_rco_primary_table" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">4a1207304751311090954c6d826d4320</sys_ui_form>
+            <sys_ui_section caption="Test Details" display_value="Test Details" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">061207304751311090954c6d826d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1067582_rco_rco_primary_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1207304751311090954c6d826d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1067582_rco_rco_primary_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4a1207304751311090954c6d826d4320</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Demo Workspace 0" name="Workspace-Demo-Workspace-0">1e028ffcdc113110acdda292d0a2de5f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

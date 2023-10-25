@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>.now-select&#13;
+{&#13;
+  width:40px;&#13;
+}</css>
+        <name>Reg Form CSS</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-13 08:28:36</sys_created_on>
+        <sys_id>f7a1952a4775711090954c6d826d431c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reg Form CSS</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sp_css_f7a1952a4775711090954c6d826d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 08:30:49</sys_updated_on>
+    </sp_css>
+</record_update>

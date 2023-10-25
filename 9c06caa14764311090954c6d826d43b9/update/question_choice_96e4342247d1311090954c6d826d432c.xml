@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Test">53543cee4791311090954c6d826d4373</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 09:50:59</sys_created_on>
+        <sys_id>96e4342247d1311090954c6d826d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CT CONTRAST</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>question_choice_96e4342247d1311090954c6d826d432c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-18 09:50:59</sys_updated_on>
+        <text>CT CONTRAST</text>
+        <value>ct_contrast</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=96e4342247d1311090954c6d826d432c"/>
+</record_update>

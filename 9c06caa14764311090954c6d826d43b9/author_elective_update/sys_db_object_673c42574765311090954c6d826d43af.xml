@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Rco 1696328619480</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1067582_rco_1696328619480</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">0a0f50f2d423211095d7c105f1bf4341</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 10:23:42</sys_created_on>
+        <sys_id>673c42574765311090954c6d826d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rco 1696328619480</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_db_object_673c42574765311090954c6d826d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 10:23:42</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_db_object_673c42574765311090954c6d826d43af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Rco 1696328619480</label><live_feed_enabled>false</live_feed_enabled><name>x_1067582_rco_1696328619480</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">0a0f50f2d423211095d7c105f1bf4341</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-03 10:23:42</sys_created_on><sys_id>673c42574765311090954c6d826d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Rco 1696328619480</sys_name><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_db_object_673c42574765311090954c6d826d43af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-03 10:23:42</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-637781450</payload_hash>
+        <record_name>Rco 1696328619480</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 10:23:43</sys_created_on>
+        <sys_id>733c82574765311090954c6d826d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18af510a39c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 10:23:43</sys_updated_on>
+        <type>Table</type>
+        <update_guid>fb3c82575c6531104182f92b0e133a1e</update_guid>
+        <update_guid_history>fb3c82575c6531104182f92b0e133a1e:-637781450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 10:24:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>01e416bd984f49ec80c5062af4a53291</sys_id>
+        <sys_metadata>673c42574765311090954c6d826d43af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rco 1696328619480</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_db_object_673c42574765311090954c6d826d43af</sys_update_name>
+        <sys_update_version display_value="sys_db_object_673c42574765311090954c6d826d43af">733c82574765311090954c6d826d431f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 10:24:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
