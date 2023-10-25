@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for RCO</description>
+        <genius_result_assembly/>
+        <label>RCO search profile</label>
+        <name>x_1067582_rco_jmizhezd_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 05:44:17</sys_created_on>
+        <sys_id>7b66cfb15de4711010a10d1268656829</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RCO search profile</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>ais_search_profile_7b66cfb15de4711010a10d1268656829</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 05:44:20</sys_updated_on>
+    </ais_search_profile>
+</record_update>

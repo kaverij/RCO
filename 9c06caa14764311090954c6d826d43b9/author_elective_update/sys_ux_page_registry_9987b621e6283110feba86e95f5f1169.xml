@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>5187b6215128311084d7b5dbb14a3470</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>rco</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 10:00:38</sys_created_on>
+        <sys_id>9987b621e6283110feba86e95f5f1169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCO</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_page_registry_9987b621e6283110feba86e95f5f1169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:00:38</sys_updated_on>
+        <title>RCO</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ux_page_registry_9987b621e6283110feba86e95f5f1169</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>5187b6215128311084d7b5dbb14a3470</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>rco</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-09 10:00:38</sys_created_on><sys_id>9987b621e6283110feba86e95f5f1169</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RCO</sys_name><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ux_page_registry_9987b621e6283110feba86e95f5f1169</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-09 10:00:38</sys_updated_on><title>RCO</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>261343848</payload_hash>
+        <record_name>RCO</record_name>
+        <reverted_from/>
+        <source>97c7ad614720311090954c6d826d43dd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-09 04:12:20</sys_created_on>
+        <sys_id>bba89bad4768311090954c6d826d4363</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189d87edca00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>7ba89badcc68311089cf181de1b13863</update_guid>
+        <update_guid_history>7ba89badcc68311089cf181de1b13863:261343848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 12:25:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>4598156471c845f896e16f3fdc2b7210</sys_id>
+        <sys_metadata>9987b621e6283110feba86e95f5f1169</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCO</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_9987b621e6283110feba86e95f5f1169</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_9987b621e6283110feba86e95f5f1169">bba89bad4768311090954c6d826d4363</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 12:25:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

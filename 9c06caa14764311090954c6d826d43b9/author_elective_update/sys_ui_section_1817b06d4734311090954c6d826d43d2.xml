@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="--" section_id="1817b06d4734311090954c6d826d43d2" sys_domain="global" table="x_1067582_rco_rco_secondary_table" version="3" view="Default_view_Copy">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_approved</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-21 10:55:34</sys_created_on>
+            <sys_id>c327746d4734311090954c6d826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-21 10:55:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_approved_on</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-21 10:55:34</sys_created_on>
+            <sys_id>c727746d4734311090954c6d826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-21 10:55:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-21 10:55:34</sys_created_on>
+            <sys_id>cb27746d4734311090954c6d826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-21 10:55:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-21 10:55:34</sys_created_on>
+            <sys_id>cf27746d4734311090954c6d826d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-21 10:55:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>--</caption>
+            <header>false</header>
+            <name>x_1067582_rco_rco_secondary_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-21 10:55:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1817b06d4734311090954c6d826d43d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1067582_rco_rco_secondary_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_ui_section_1817b06d4734311090954c6d826d43d2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-21 10:55:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view Copy" name="Default_view_Copy">1017b06d4734311090954c6d826d4346</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ui_section_1817b06d4734311090954c6d826d43d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="--" section_id="1817b06d4734311090954c6d826d43d2" sys_domain="global" table="x_1067582_rco_rco_secondary_table" version="3" view="Default_view_Copy"><sys_ui_element action="INSERT_OR_UPDATE"><element>amount_approved</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 10:55:34</sys_created_on><sys_id>c327746d4734311090954c6d826d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 10:55:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>amount_approved_on</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 10:55:34</sys_created_on><sys_id>c727746d4734311090954c6d826d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 10:55:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 10:55:34</sys_created_on><sys_id>cb27746d4734311090954c6d826d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 10:55:34</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 10:55:34</sys_created_on><sys_id>cf27746d4734311090954c6d826d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="--" display_value="--" name="x_1067582_rco_rco_secondary_table" sys_domain="global" view="1017b06d4734311090954c6d826d4346">1817b06d4734311090954c6d826d43d2</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 10:55:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>--</caption><header>false</header><name>x_1067582_rco_rco_secondary_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-21 10:55:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1817b06d4734311090954c6d826d43d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1067582_rco_rco_secondary_table</sys_name><sys_overrides/><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ui_section_1817b06d4734311090954c6d826d43d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-21 10:55:07</sys_updated_on><sys_user/><title>false</title><view display_value="Default view Copy" name="Default_view_Copy">1017b06d4734311090954c6d826d4346</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-486671682</payload_hash>
+        <record_name>rco secondary table</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-21 10:55:34</sys_created_on>
+        <sys_id>cf27746d4734311090954c6d826d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a17bc5b600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-21 10:55:34</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c727746def3431107c2fc3ec7b1f3260</update_guid>
+        <update_guid_history>c727746def3431107c2fc3ec7b1f3260:-486671682,4127346d4b34311042d38cada33f31dc:310544558,5817b06deb343110c38377b79e883ad6:-447782495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 06:46:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>17d3d4b18291401593d9c51c72e9a461</sys_id>
+        <sys_metadata>1817b06d4734311090954c6d826d43d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>--</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent display_value="">4f7c1b0447b4711090954c6d826d43b0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1817b06d4734311090954c6d826d43d2</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1817b06d4734311090954c6d826d43d2">cf27746d4734311090954c6d826d4360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-11 06:46:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

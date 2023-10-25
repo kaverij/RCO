@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_f9452de2d5f57110c3564b8b1d3e7b9c</event_name>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Article page Default)</label>
+        <props>[{"name":"modalId","fieldType":"string","interfaceApiName":"global.modal","label":"Modal"},{"name":"showModal","fieldType":"boolean","interfaceApiName":null,"label":"Open modal dialog"},{"name":"displayOptions","fieldType":"json","interfaceApiName":null,"label":"Display options (advanced)"},{"name":"bare","fieldType":"boolean","interfaceApiName":"global.modal","label":"Use bare modal"}]</props>
+        <required_translations>[{"message":"Display options (advanced)","comment":""},{"message":"Use bare modal","comment":""},{"message":"Open modal dialog","comment":""},{"message":"Modal","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-13 09:53:45</sys_created_on>
+        <sys_id>31452de24cf57110fd32e38822821896</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Article page Default)</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_event_31452de24cf57110fd32e38822821896</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-13 09:53:45</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=31452de24cf57110fd32e38822821896"/>
+</record_update>

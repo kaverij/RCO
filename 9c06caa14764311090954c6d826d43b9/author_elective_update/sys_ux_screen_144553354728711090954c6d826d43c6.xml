@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="RCO Config">362a3eb534a471103334a013f146ff34</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Blank record page">8c459bf14728711090954c6d826d4312</macroponent>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Summary Page</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Home">7e2a3eb5b8a47110f7d00f6f04035b21</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 06:49:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>144553354728711090954c6d826d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Summary Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_screen_144553354728711090954c6d826d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 06:49:01</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=144553354728711090954c6d826d43c6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ux_screen_144553354728711090954c6d826d43c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="RCO Config">362a3eb534a471103334a013f146ff34</app_config><description/><event_mappings/><macroponent display_value="Blank record page">8c459bf14728711090954c6d826d4312</macroponent><macroponent_config>{ }</macroponent_config><name>Summary Page</name><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Home">7e2a3eb5b8a47110f7d00f6f04035b21</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-10 06:49:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>144553354728711090954c6d826d43c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Summary Page</sys_name><sys_overrides/><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ux_screen_144553354728711090954c6d826d43c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-10 06:49:01</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=144553354728711090954c6d826d43c6"/></record_update>]]></payload>
+        <payload_hash>-2017196261</payload_hash>
+        <record_name>Summary Page</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 06:49:01</sys_created_on>
+        <sys_id>944553354728711090954c6d826d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189de34ad4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 06:49:01</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>dc455335492871104aec5a798c2363c7</update_guid>
+        <update_guid_history>dc455335492871104aec5a798c2363c7:-2017196261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 06:53:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>262b7864fd5d460e97391dec6e654824</sys_id>
+        <sys_metadata>144553354728711090954c6d826d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Summary Page</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_144553354728711090954c6d826d43c6</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_144553354728711090954c6d826d43c6">944553354728711090954c6d826d43c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 06:53:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

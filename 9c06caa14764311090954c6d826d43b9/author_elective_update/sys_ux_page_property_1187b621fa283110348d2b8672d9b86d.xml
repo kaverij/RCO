@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for RCO generated</description>
+        <name>view</name>
+        <page display_value="RCO">9987b621e6283110feba86e95f5f1169</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 10:00:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>1187b621fa283110348d2b8672d9b86d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_page_property_1187b621fa283110348d2b8672d9b86d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:00:43</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1067582_rco.9987b621e6283110feba86e95f5f1169.root.view</unique_name>
+        <value>Workspace-RCO-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=1187b621fa283110348d2b8672d9b86d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ux_page_property_1187b621fa283110348d2b8672d9b86d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for RCO generated</description><name>view</name><page display_value="RCO">9987b621e6283110feba86e95f5f1169</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-09 10:00:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>1187b621fa283110348d2b8672d9b86d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>view</sys_name><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ux_page_property_1187b621fa283110348d2b8672d9b86d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-09 10:00:43</sys_updated_on><type>string</type><unique_name>x_1067582_rco.9987b621e6283110feba86e95f5f1169.root.view</unique_name><value>Workspace-RCO-0</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=1187b621fa283110348d2b8672d9b86d"/></record_update>]]></payload>
+        <payload_hash>1736928361</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 10:00:43</sys_created_on>
+        <sys_id>a2873a214728311090954c6d826d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d9bdd2cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:00:43</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>2e873a215d2831106ab32601f43b0c83</update_guid>
+        <update_guid_history>2e873a215d2831106ab32601f43b0c83:1736928361,e2873a21f6283110b98860094fd3fa76:2036420640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 12:25:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>45e2f96c878c48a0b0318e935d2bc9e4</sys_id>
+        <sys_metadata>1187b621fa283110348d2b8672d9b86d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_1187b621fa283110348d2b8672d9b86d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_1187b621fa283110348d2b8672d9b86d">a2873a214728311090954c6d826d4384</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 12:25:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

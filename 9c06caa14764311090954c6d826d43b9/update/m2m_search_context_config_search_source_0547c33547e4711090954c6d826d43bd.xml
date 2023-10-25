@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="RCO-claim form - Workspace Search">1c478335bfe47110c44011f73e395477</search_context_config>
+        <source display_value="RCO-claim form - task">0147c33547e4711090954c6d826d43bb</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 05:47:55</sys_created_on>
+        <sys_id>0547c33547e4711090954c6d826d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_0547c33547e4711090954c6d826d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-10 05:47:55</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

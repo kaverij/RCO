@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "tabelname" : "rcotable",
+  "sysid" : "985f6b7d4768711090954c6d826d4340",
+  "tablename" : "rco primary table",
+  "recordsysid" : "f8ada73b4761311090954c6d826d4396"
+}</macroponent_config>
+        <screen display_value="Summary Page default">4ae6db754728711090954c6d826d4394</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-10 06:56:15</sys_created_on>
+        <sys_id>cee6db754728711090954c6d826d4396</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_cee6db754728711090954c6d826d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 05:59:41</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

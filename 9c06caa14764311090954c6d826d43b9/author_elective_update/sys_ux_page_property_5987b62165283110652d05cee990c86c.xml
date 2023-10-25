@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">9987b621e6283110feba86e95f5f1169</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 10:00:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5987b62165283110652d05cee990c86c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_ux_page_property_5987b62165283110652d05cee990c86c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 10:00:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1067582_rco.9987b621e6283110feba86e95f5f1169.root.globalSearchDataConfigId</unique_name>
+        <value>9187b6214d283110086a89143ec0f56f</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>sys_ux_page_property_5987b62165283110652d05cee990c86c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">9987b621e6283110feba86e95f5f1169</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-09 10:00:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>5987b62165283110652d05cee990c86c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package><sys_policy/><sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope><sys_update_name>sys_ux_page_property_5987b62165283110652d05cee990c86c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-09 10:00:39</sys_updated_on><type>string</type><unique_name>x_1067582_rco.9987b621e6283110feba86e95f5f1169.root.globalSearchDataConfigId</unique_name><value>9187b6214d283110086a89143ec0f56f</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-899097456</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>97c7ad614720311090954c6d826d43dd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-09 04:12:20</sys_created_on>
+        <sys_id>88b893ed4768311090954c6d826d432e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189d87edca00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>48b893eddb683110c297a231103f802e</update_guid>
+        <update_guid_history>48b893eddb683110c297a231103f802e:-899097456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 12:25:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3db22f67990c4d2596102d38881e1cc1</sys_id>
+        <sys_metadata>5987b62165283110652d05cee990c86c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_5987b62165283110652d05cee990c86c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_5987b62165283110652d05cee990c86c">88b893ed4768311090954c6d826d432e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 12:25:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"stages":{},"subflows":[],"activities":{},"ends":["011b938047b4711090954c6d826d433e"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_1067582_rco_new">nameISNOTEMPTY^ageISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="age" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>451b938047b4711090954c6d826d433c,011b938047b4711090954c6d826d433e</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>451b938047b4711090954c6d826d433c,011b938047b4711090954c6d826d433e</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>RCOWorkFlow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">451b938047b4711090954c6d826d433c</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_id>453a5f0047b4711090954c6d826d43e0</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:51:40</sys_updated_on>
+        <table>x_1067582_rco_new</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="RCOWorkFlow">8d1b938047b4711090954c6d826d433a</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>RCOWorkFlow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d1b938047b4711090954c6d826d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCOWorkFlow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>wf_workflow_8d1b938047b4711090954c6d826d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:00:47</sys_updated_on>
+        <table>x_1067582_rco_new</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="DELETE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>ceeb9f8047b4711090954c6d826d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Dashboard</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:05:59</sys_created_on>
+        <sys_id>c63c53c047b4711090954c6d826d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:05:59</sys_updated_on>
+        <value>Dashboard</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>c6eb9f8047b4711090954c6d826d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>46eb9f8047b4711090954c6d826d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>0aeb9f8047b4711090954c6d826d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>42eb9f8047b4711090954c6d826d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_stage action="DELETE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:04:24</sys_created_on>
+        <sys_id>c2eb9f8047b4711090954c6d826d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:04:24</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_stage>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_id>451b938047b4711090954c6d826d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:00:47</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=451b938047b4711090954c6d826d433c"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">451b938047b4711090954c6d826d433c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_id>051b938047b4711090954c6d826d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:00:47</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_id>011b938047b4711090954c6d826d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:00:47</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=011b938047b4711090954c6d826d433e"/>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">051b938047b4711090954c6d826d433d</condition>
+        <from display_value="Begin">451b938047b4711090954c6d826d433c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:21:15</sys_created_on>
+        <sys_id>50cf134847b4711090954c6d826d43a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:22:56</sys_updated_on>
+        <to display_value="End">011b938047b4711090954c6d826d433e</to>
+    </wf_transition>
+    <var_dictionary action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Demo</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_demo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Workflow">workflow</internal_type>
+        <label>Demo</label>
+        <mandatory>false</mandatory>
+        <max_length>80</max_length>
+        <model_id>8d1b938047b4711090954c6d826d433a</model_id>
+        <model_table>wf_workflow</model_table>
+        <name>var__m_var_dictionary_8d1b938047b4711090954c6d826d433a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>var_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:40:06</sys_created_on>
+        <sys_id>23c3238c47b4711090954c6d826d4313</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Demo</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>var_dictionary_23c3238c47b4711090954c6d826d4313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:40:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </var_dictionary>
+    <sys_documentation action="DELETE" element="u_demo" language="en" table="var__m_var_dictionary_8d1b938047b4711090954c6d826d433a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_demo</element>
+            <help/>
+            <hint/>
+            <label>Demo</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_8d1b938047b4711090954c6d826d433a</name>
+            <plural>Demo</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:40:07</sys_created_on>
+            <sys_id>c114678c47b4711090954c6d826d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Demo</sys_name>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_8d1b938047b4711090954c6d826d433a_u_demo_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:40:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 07:00:47</sys_created_on>
+        <sys_id>451b938047b4711090954c6d826d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 07:00:47</sys_updated_on>
+        <workflow_version display_value="RCOWorkFlow">453a5f0047b4711090954c6d826d43e0</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=8d1b938047b4711090954c6d826d433a^sys_id!=453a5f0047b4711090954c6d826d43e0">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RCO">9c06caa14764311090954c6d826d43b9</application>
+        <file_path/>
+        <instance_id>895d6f0bdb64dfc03353f22ebf961959</instance_id>
+        <instance_name>dev51591</instance_name>
+        <name>wf_workflow_8d1b938047b4711090954c6d826d433a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"stages":{},"subflows":[],"activities":{},"ends":["011b938047b4711090954c6d826d433e"]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition table="x_1067582_rco_new"&gt;nameISNOTEMPTY^ageISNOTEMPTY^EQ&lt;item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="age" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;451b938047b4711090954c6d826d433c,011b938047b4711090954c6d826d433e&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;451b938047b4711090954c6d826d433c,011b938047b4711090954c6d826d433e&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;RCOWorkFlow&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration display_value="2 business days by 4pm"&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/relative_duration&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;451b938047b4711090954c6d826d433c&lt;/start&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_id&gt;453a5f0047b4711090954c6d826d43e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 08:51:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1067582_rco_new&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="RCOWorkFlow"&gt;8d1b938047b4711090954c6d826d433a&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;RCOWorkFlow&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8d1b938047b4711090954c6d826d433a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RCOWorkFlow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RCO" source="x_1067582_rco"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RCO"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_8d1b938047b4711090954c6d826d433a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:00:47&lt;/sys_updated_on&gt;&lt;table&gt;x_1067582_rco_new&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Completed&lt;/name&gt;&lt;ola&gt;1970-01-01 00:00:00&lt;/ola&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;ceeb9f8047b4711090954c6d826d4356&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;complete&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Dashboard&lt;/name&gt;&lt;ola&gt;1970-01-01 00:00:00&lt;/ola&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:05:59&lt;/sys_created_on&gt;&lt;sys_id&gt;c63c53c047b4711090954c6d826d4305&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:05:59&lt;/sys_updated_on&gt;&lt;value&gt;Dashboard&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Delivery&lt;/name&gt;&lt;ola&gt;1970-01-03 00:00:00&lt;/ola&gt;&lt;order&gt;140&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;c6eb9f8047b4711090954c6d826d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;delivery&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Fulfillment&lt;/name&gt;&lt;ola&gt;1970-01-02 00:00:00&lt;/ola&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;46eb9f8047b4711090954c6d826d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;fulfillment&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Request Cancelled&lt;/name&gt;&lt;ola&gt;1970-01-01 00:00:00&lt;/ola&gt;&lt;order&gt;1000&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;0aeb9f8047b4711090954c6d826d4356&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;Request Cancelled&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Request Approved&lt;/name&gt;&lt;ola&gt;1970-01-01 00:00:00&lt;/ola&gt;&lt;order&gt;90&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;42eb9f8047b4711090954c6d826d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;request_approved&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_stage action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Waiting for Approval&lt;/name&gt;&lt;ola&gt;1970-01-02 00:00:00&lt;/ola&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;c2eb9f8047b4711090954c6d826d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:04:24&lt;/sys_updated_on&gt;&lt;value&gt;waiting_for_approval&lt;/value&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_stage&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_id&gt;451b938047b4711090954c6d826d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:00:47&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=451b938047b4711090954c6d826d433c"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;451b938047b4711090954c6d826d433c&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_id&gt;051b938047b4711090954c6d826d433d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:00:47&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_id&gt;011b938047b4711090954c6d826d433e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:00:47&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;x&gt;400&lt;/x&gt;&lt;y&gt;150&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=011b938047b4711090954c6d826d433e"/&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;051b938047b4711090954c6d826d433d&lt;/condition&gt;&lt;from display_value="Begin"&gt;451b938047b4711090954c6d826d433c&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:21:15&lt;/sys_created_on&gt;&lt;sys_id&gt;50cf134847b4711090954c6d826d43a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:22:56&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;011b938047b4711090954c6d826d433e&lt;/to&gt;&lt;/wf_transition&gt;&lt;var_dictionary action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Demo&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_demo&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Workflow"&gt;workflow&lt;/internal_type&gt;&lt;label&gt;Demo&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;80&lt;/max_length&gt;&lt;model_id&gt;8d1b938047b4711090954c6d826d433a&lt;/model_id&gt;&lt;model_table&gt;wf_workflow&lt;/model_table&gt;&lt;name&gt;var__m_var_dictionary_8d1b938047b4711090954c6d826d433a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;var_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:40:06&lt;/sys_created_on&gt;&lt;sys_id&gt;23c3238c47b4711090954c6d826d4313&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Demo&lt;/sys_name&gt;&lt;sys_package display_value="RCO" source="x_1067582_rco"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RCO"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_scope&gt;&lt;sys_update_name&gt;var_dictionary_23c3238c47b4711090954c6d826d4313&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:40:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/var_dictionary&gt;&lt;sys_documentation element="u_demo" language="en" table="var__m_var_dictionary_8d1b938047b4711090954c6d826d433a"&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;u_demo&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Demo&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_var_dictionary_8d1b938047b4711090954c6d826d433a&lt;/name&gt;&lt;plural&gt;Demo&lt;/plural&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:40:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c114678c47b4711090954c6d826d43ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Demo&lt;/sys_name&gt;&lt;sys_package display_value="RCO" source="x_1067582_rco"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RCO"&gt;9c06caa14764311090954c6d826d43b9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_var_dictionary_8d1b938047b4711090954c6d826d433a_u_demo_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:40:07&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/sys_documentation&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-17 07:00:47&lt;/sys_created_on&gt;&lt;sys_id&gt;451b938047b4711090954c6d826d433a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-17 07:00:47&lt;/sys_updated_on&gt;&lt;workflow_version display_value="RCOWorkFlow"&gt;453a5f0047b4711090954c6d826d43e0&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=8d1b938047b4711090954c6d826d433a^sys_id!=453a5f0047b4711090954c6d826d43e0"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1667112892</payload_hash>
+        <record_name>RCOWorkFlow</record_name>
+        <reverted_from/>
+        <source>9c06caa14764311090954c6d826d43bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:51:40</sys_created_on>
+        <sys_id>d9747fcc47f4711090954c6d826d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a02b17ccf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:51:40</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>15747fcc6ef47110ee323ca1e6701faa</update_guid>
+        <update_guid_history>15747fcc6ef47110ee323ca1e6701faa:-1667112892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RCOWorkFlow">9e287fc04738711090954c6d826d4305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 09:07:51</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>28b6e332223549228e5ec5454a978e64</sys_id>
+        <sys_metadata>8d1b938047b4711090954c6d826d433a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCOWorkFlow</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_scope_delete display_value="">0d7e648ec1ba41a482ecd8d90b47e610</sys_scope_delete>
+        <sys_update_name>wf_workflow_8d1b938047b4711090954c6d826d433a</sys_update_name>
+        <sys_update_version display_value="wf_workflow_8d1b938047b4711090954c6d826d433a">d9747fcc47f4711090954c6d826d43aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 09:07:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

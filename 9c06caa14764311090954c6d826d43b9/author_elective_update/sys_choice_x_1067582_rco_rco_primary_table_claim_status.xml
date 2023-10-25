@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="claim_status" table="x_1067582_rco_rco_primary_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>claim_status</element>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 11:24:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>claim_status</sys_name>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_choice_x_1067582_rco_rco_primary_table_claim_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 11:24:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claim_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claim Submitted</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 11:24:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c774eb5473c711090954c6d826d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 11:24:44</sys_updated_on>
+            <value>claim_submitted</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

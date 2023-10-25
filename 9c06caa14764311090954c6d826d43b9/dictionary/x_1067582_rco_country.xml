@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ce5c46574765311090954c6d826d43b8" label="country " max_length="40" name="x_1067582_rco_country" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Afghanistan" max_length="40" name="afghanistan" type="string"/>
+    </element>
+</database>

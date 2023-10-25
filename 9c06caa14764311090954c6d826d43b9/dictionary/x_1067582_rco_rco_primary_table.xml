@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fab89f8c4774711090954c6d826d4384" label="rco primary table" max_length="40" name="x_1067582_rco_rco_primary_table" text_index="true" type="collection">
+        <element label="Age" max_length="38" name="age" type="integer"/>
+        <element label="Amount Approved ($)" max_length="40" name="amount_approved" type="integer"/>
+        <element label="Amount Approved On" max_length="40" name="amount_approved_on" type="glide_date"/>
+        <element label="Authorisation Code" max_length="40" name="authorisation_code" read_only="true" type="string"/>
+        <element default="." label="Blank" max_length="40" name="blank" type="string"/>
+        <element label="City" mandatory="true" max_length="40" name="city" type="string"/>
+        <element choice="3" label="Claim Status" max_length="40" name="claim_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Claim Submitted" sequence="0" value="claim_submitted"/>
+            </choice>
+        </element>
+        <element label="CoPay" max_length="40" name="copay" type="integer"/>
+        <element label="Cost" max_length="40" name="cost" type="integer"/>
+        <element label="Country" mandatory="true" max_length="40" name="country" type="string"/>
+        <element label="Country Code" max_length="40" name="country_code" type="string"/>
+        <element label="Date Of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element choice="3" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element label="House Number" max_length="40" name="house_number" type="string"/>
+        <element choice="3" label="Insurer" mandatory="true" max_length="40" name="insurer" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="United health" sequence="0" value="united_health"/>
+                <element inactive_on_update="false" label="Anthem" sequence="1" value="anthem"/>
+                <element inactive_on_update="false" label="Kaiser foundation" sequence="2" value="kaiser_foundation"/>
+                <element inactive_on_update="false" label="Humana" sequence="3" value="humana"/>
+                <element inactive_on_update="false" label="CVS" sequence="4" value="cvs"/>
+                <element inactive_on_update="false" label="HCSC" sequence="5" value="hcsc"/>
+                <element inactive_on_update="false" label="Centene Corp" sequence="6" value="centene_corp"/>
+                <element inactive_on_update="false" label="Cigna health" sequence="7" value="cigna_health"/>
+                <element inactive_on_update="false" label="Wellcare" sequence="8" value="wellcare"/>
+            </choice>
+        </element>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Membership number" max_length="40" name="membership_number" type="integer"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Personal Number" mandatory="true" max_length="40" name="personal_number" type="string"/>
+        <element label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element choice="3" label="Plan Name" mandatory="true" max_length="40" name="plan_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Health plus" sequence="0" value="health_plus"/>
+                <element inactive_on_update="false" label="Premier" sequence="1" value="premier"/>
+                <element inactive_on_update="false" label="Exclusive" sequence="2" value="exclusive"/>
+                <element inactive_on_update="false" label="Essential" sequence="3" value="essential"/>
+                <element inactive_on_update="false" label="Essential plus" sequence="4" value="essential_plus"/>
+                <element inactive_on_update="false" label="Prime" sequence="5" value="prime"/>
+                <element inactive_on_update="false" label="Ultimate" sequence="6" value="ultimate"/>
+                <element inactive_on_update="false" label="Deluxe" sequence="7" value="deluxe"/>
+            </choice>
+        </element>
+        <element label="Reference ID" mandatory="true" max_length="12" name="reference_id" type="string"/>
+        <element choice="3" label="Salutation" mandatory="true" max_length="40" name="salutation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mr." sequence="0" value="mr"/>
+                <element inactive_on_update="false" label="Mrs." sequence="1" value="mrs"/>
+                <element inactive_on_update="false" label="Ms." sequence="2" value="ms"/>
+            </choice>
+        </element>
+        <element label="Social Security Number" mandatory="true" max_length="40" name="social_security_number" type="integer"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="statu0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="Partially Approved" sequence="2" value="partially_approved"/>
+            </choice>
+        </element>
+        <element label="Street Address" max_length="40" name="street_address" type="string"/>
+        <element choice="3" label="Test" max_length="40" name="test" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CT ANGIOGRAPHY" sequence="0" value="ct_angiography"/>
+                <element inactive_on_update="false" label="CT CONTRAST" sequence="1" value="ct_contrast"/>
+                <element inactive_on_update="false" label="CT SCAN" sequence="2" value="ct_scan"/>
+                <element inactive_on_update="false" label="MR ANGIOGRAPHY" sequence="3" value="mr_angiography"/>
+                <element inactive_on_update="false" label="MRI" sequence="4" value="mri"/>
+                <element inactive_on_update="false" label="MAMMOGRAPHY" sequence="5" value="mammography"/>
+                <element inactive_on_update="false" label="ULTRASOUND" sequence="6" value="ultrasound"/>
+                <element inactive_on_update="false" label="X-RAY" sequence="7" value="x_ray"/>
+            </choice>
+        </element>
+        <element formula="NOW()" label="Today'sDate" max_length="40" name="today_sdate" type="glide_date" virtual="true" virtual_type="formula"/>
+    </element>
+</database>

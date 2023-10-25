@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Claim Form">e41ee0a64791311090954c6d826d4355</cat_item>
+        <cat_variable>IO:fa9a5ff34721311090954c6d826d4334</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Claim form CSS</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	setTimeout(function(){ 
+		
+		if(window != null){
+			// native
+			g_form.getControl('country_code').setAttribute('style', 'font-weight: bold;color:blue');
+		}
+},3000);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 11:26:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60407c1e4735311090954c6d826d43c3</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Claim form CSS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>catalog_script_client_60407c1e4735311090954c6d826d43c3</sys_update_name>
+        <sys_updated_by>kaveri_jagtap</sys_updated_by>
+        <sys_updated_on>2023-10-13 09:26:12</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

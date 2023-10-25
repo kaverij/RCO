@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="insurer" table="x_1067582_rco_rco_primary_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>insurer</element>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>insurer</sys_name>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_choice_x_1067582_rco_rco_primary_table_insurer</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>United health</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f84c9bc047b4711090954c6d826d4396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>united_health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anthem</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f04c9bc047b4711090954c6d826d43b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>anthem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kaiser foundation</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>704c9bc047b4711090954c6d826d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>kaiser_foundation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Humana</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc4c9bc047b4711090954c6d826d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>humana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CVS</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c4c9bc047b4711090954c6d826d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>cvs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCSC</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f84c9bc047b4711090954c6d826d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>hcsc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Centene Corp</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>784c9bc047b4711090954c6d826d43b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>centene_corp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cigna health</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f44c9bc047b4711090954c6d826d43b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>cigna_health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>insurer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wellcare</label>
+            <language>en</language>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 07:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>744c9bc047b4711090954c6d826d43b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 07:05:58</sys_updated_on>
+            <value>wellcare</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New section 4" section_id="c21207304751311090954c6d826d4367" sys_domain="global" table="x_1067582_rco_rco_primary_table" version="3" view="Workspace-Demo-Workspace-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 04:26:15</sys_created_on>
+            <sys_id>b9a720b14734711090954c6d826d437f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 04:50:19</sys_updated_on>
+            <text>&lt;p&gt;&lt;span style="font-size: 17pt;color: #e67e23;"&gt;&lt;strong&gt;Test Details&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b9a720b14734711090954c6d826d437f</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:29</sys_created_on>
+            <sys_id>4e1207304751311090954c6d826d4368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 4" display_value="New section 4" name="x_1067582_rco_rco_primary_table" sys_domain="global" view="1e028ffcdc113110acdda292d0a2de5f">c21207304751311090954c6d826d4367</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:29</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section 4</caption>
+            <header>false</header>
+            <name>x_1067582_rco_rco_primary_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-13 09:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c21207304751311090954c6d826d4367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1067582_rco_rco_primary_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+            <sys_update_name>sys_ui_section_c21207304751311090954c6d826d4367</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-13 09:38:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Demo Workspace 0" name="Workspace-Demo-Workspace-0">1e028ffcdc113110acdda292d0a2de5f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,d5d732935301101017caddeeff7b12b3</associated_types>
+        <description/>
+        <image display_value="ui-builder-templates-right-sidebar.svg">89ff424877311010d99bbc3f6810614e</image>
+        <label>Portal Main Content with Right Rail</label>
+        <macroponent display_value="Fixed Width Two-One">b1452de21bf57110d6d726ba3e0ae4a1</macroponent>
+        <macroponent_config/>
+        <optional_properties/>
+        <order>0</order>
+        <required_properties/>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-13 09:53:44</sys_created_on>
+        <sys_id>f5452de273f57110bcc9a7526b3ae9a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Main Content with Right Rail</sys_name>
+        <sys_package display_value="RCO" source="x_1067582_rco">9c06caa14764311090954c6d826d43b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCO">9c06caa14764311090954c6d826d43b9</sys_scope>
+        <sys_update_name>sys_uib_template_f5452de273f57110bcc9a7526b3ae9a1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-13 09:53:44</sys_updated_on>
+        <type/>
+    </sys_uib_template>
+</record_update>
